@@ -1,0 +1,64 @@
+baseURL = "https://cloudwithdan.com/"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+theme = "hermit-v2"
+
+languageCode = "en-us"
+title = "cloudwithdan"
+enableGitInfo = false
+enableEmoji = true
+rssLimit = 10
+
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+# Syntax highlighting
+pygmentsCodefences = true
+pygmentsUseClasses = true
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
+  publishDate = ["publishDate", "date"]
+  expiryDate = ["expiryDate"]
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  homeSubtitlePrinter = true
+  scrollToTop = true 
+  global_mathjax = false
+  readTime = true
+  readTimeSeparator = "\u2026 \u23F2 Reading Time:"
+  shareSocial = true
+  human = ["posts"]
+  footerCopyright = ' <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+[params.author]
+  name = "cloudwithdan"
+
+[params.gallery]
+  enable = true
+  thumbnail = "300"
+
+[params.dateform]
+  CopyrightDate = "2006"
+  LongDate = "Jan 2, 2006"
+  ShortDate = "Jan 2"
+  NumDateShort = "2006-01-02"
+  NumDateLong = "2006-01-02 15:04 -0700"
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[permalinks]
+  post = "/:contentbasename/"
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML", "RSS"]
+  page = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML", "RSS"]

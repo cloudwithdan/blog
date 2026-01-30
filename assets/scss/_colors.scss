@@ -1,0 +1,159 @@
+// Catppuccin Macchiato palette
+$ctp-rosewater: #f4dbd6;
+$ctp-flamingo: #f0c6c6;
+$ctp-pink: #f5bde6;
+$ctp-mauve: #c6a0f6;
+$ctp-red: #ed8796;
+$ctp-maroon: #ee99a0;
+$ctp-peach: #f5a97f;
+$ctp-yellow: #eed49f;
+$ctp-green: #a6da95;
+$ctp-teal: #8bd5ca;
+$ctp-sky: #91d7e3;
+$ctp-sapphire: #7dc4e4;
+$ctp-blue: #8aadf4;
+$ctp-lavender: #b7bdf8;
+$ctp-text: #cad3f5;
+$ctp-subtext1: #b8c0e0;
+$ctp-subtext0: #a5adcb;
+$ctp-overlay2: #939ab7;
+$ctp-overlay1: #8087a2;
+$ctp-overlay0: #6e738d;
+$ctp-surface2: #5b6078;
+$ctp-surface1: #494d64;
+$ctp-surface0: #363a4f;
+$ctp-base: #24273a;
+$ctp-mantle: #1e2030;
+$ctp-crust: #181926;
+
+// Admonition opacity
+$admonition-background-opacity: 0.1;
+
+// Background color
+$html-background: $ctp-crust;
+
+// Site Navigation color
+$site-nav-children-border-right: $ctp-surface1;
+
+// Posts seperator in list view
+$post-item-border-bottom: $ctp-surface1;
+
+// Pinned posts group seperator
+$pinned-posts-group-border-bottom: $ctp-surface1;
+
+// Default dimmed value
+$dimmed-opacity: 0.8;
+
+// Accent color elements
+$aTag-mixin-a-box-shadow: $ctp-mauve;
+$aTag-mixin-a-hover-box-shadow: $ctp-pink;
+$content-anchor-hover: $ctp-mauve;
+$post-description-a-hover-border-bottom: $ctp-mauve;
+$tableofcontents-a-hover-border-bottom: $ctp-mauve;
+$scrolltotop-arrow: $ctp-mauve;
+$typewriter: $ctp-mauve;
+$footnote-ref-hover-background: $ctp-mauve;
+$marked-background: $ctp-mauve;
+$inserted-text-underline: $ctp-mauve;
+
+// Footnote
+$footnote-ref-background: $ctp-surface0;
+
+// Scroll to Top
+$scrolltotop-ring: $ctp-surface2;
+$scrolltotop-circle: $ctp-base;
+
+// Page Scrollbar
+$pagescrollbar-background: $ctp-mantle;
+$pagescrollbar-thumb: $ctp-surface1;
+$pagescrollbar-thumb-hover: $ctp-surface2;
+
+// Table of Contents
+$tableofcontents-background: transparent;
+$tableofcontents-scrollbar-track: $ctp-surface0;
+$tableofcontents-scrollbar-thumb: $ctp-surface1;
+$tableofcontents-scrollbar-thumb-hover: $ctp-surface2;
+
+// Text color
+$text: $ctp-text;
+
+// Text selection color
+$text-select: $ctp-surface2;
+
+// Marked text color
+$marked-text: $ctp-crust;
+
+// Link text color on hover
+$a-hover: $ctp-pink;
+
+// 404 Page
+$btn-404-a-border: $ctp-text;
+$btn-404-a-hover: $ctp-pink;
+
+// Social Share links pane
+$share-links-background: $ctp-base;
+$share-links-a: $ctp-subtext0;
+$share-links-a-hover-active-focus: $ctp-text;
+
+// Code block colors
+$pre-code: $ctp-text;
+$pre-code-background: transparent;
+$code-background: $ctp-surface0;
+$syntax-background: $ctp-base;
+$pre-background: $ctp-base;
+$mermaid-background: $ctp-mantle;
+
+// Code copy button
+$highlight-copy-btn: $ctp-text;
+$highlight-copy-btn-hover: $ctp-subtext0;
+$highlight-copy-btn-background: $ctp-surface1;
+
+// Site Header color
+$site-header-background: $ctp-base;
+
+// Mobile menu color
+$mobile-menu-background: $ctp-base;
+
+// Accessibility
+$screen-reader-text: $ctp-blue;
+$screen-reader-text-background: $ctp-surface0;
+
+// Featured Image Copyright section
+$featured-image-text: $ctp-text;
+$featured-image-background: rgba($ctp-base, 0.45);
+
+// Image Gallery
+$gallery-item-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+$gallery-item-hover-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+$gallery-item-caption-background: rgba($ctp-crust, 0.85);
+$gallery-item-caption-color: $ctp-text;
+$lightbox-overlay-background: rgba($ctp-crust, 0.9);
+$lightbox-image-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+$lightbox-caption-color: $ctp-text;
+$lightbox-close-nav-color: $ctp-text;
+$lightbox-close-color-hover: $ctp-subtext0;
+$lightbox-nav-background-color: rgba($ctp-base, 0.5);
+$lightbox-nav-background-color-hover: rgba($ctp-base, 0.8);
+
+// Admonition colors
+$admonition-background: (
+  "note": rgba($ctp-blue, $admonition-background-opacity),
+  "info": rgba($ctp-sapphire, $admonition-background-opacity),
+  "tip": rgba($ctp-teal, $admonition-background-opacity),
+  "success": rgba($ctp-green, $admonition-background-opacity),
+  "warning": rgba($ctp-peach, $admonition-background-opacity),
+  "failure": rgba($ctp-maroon, $admonition-background-opacity),
+  "danger": rgba($ctp-red, $admonition-background-opacity),
+  "bug": rgba($ctp-pink, $admonition-background-opacity),
+);
+
+$admonition-color: (
+  "note": $ctp-blue,
+  "info": $ctp-sapphire,
+  "tip": $ctp-teal,
+  "success": $ctp-green,
+  "warning": $ctp-peach,
+  "failure": $ctp-maroon,
+  "danger": $ctp-red,
+  "bug": $ctp-pink,
+);
