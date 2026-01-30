@@ -50,7 +50,7 @@ pygmentsUseClasses = true
 
 [[menu.main]]
   name = "Posts"
-  url = "/posts/"
+  url = "/"
   weight = 10
 
 [permalinks]
