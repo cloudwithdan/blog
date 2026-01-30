@@ -24,4 +24,3 @@ COPY nginx/nginx.conf /etc/nginx/conf.d/default.conf
 
 # Command to start the web server
 CMD ["nginx", "-g", "daemon off;"]
-
