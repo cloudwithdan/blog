@@ -19,5 +19,8 @@ COPY --from=hugo-builder /app/public /usr/share/nginx/html
 # Expose port 8080 for the web server
 #EXPOSE 8080
 
+# Copy custom nginx configuration
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 # Command to start the web server
 CMD ["nginx", "-g", "daemon off;"]
