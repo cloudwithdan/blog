@@ -1,5 +1,6 @@
 baseURL = "https://cloudwithdan.com/posts/"
-relativeURLs = true
+relativeURLs = false
+canonifyURLs = true
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 theme = "hermit-v2"
