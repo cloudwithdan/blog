@@ -8,7 +8,7 @@ COPY --chown=1000:1000 . .
 
 # Build the Hugo site
 #RUN apk --no-cache add git
-RUN hugo 
+RUN hugo --baseURL "https://cloudwithdan.com/posts/"
 
 # Use a lightweight HTTP server to serve the site
 FROM docker.io/nginxinc/nginx-unprivileged:stable-alpine
