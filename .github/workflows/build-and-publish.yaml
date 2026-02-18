@@ -53,7 +53,6 @@ jobs:
             ./Containerfile
           image: ${{ env.IMAGE_NAME }}
           tags: ${{ env.IMAGE_TAGS }}
-          archs: amd64, arm64
           oci: false
 
       - name: Push Production Image To GHCR
