@@ -73,6 +73,12 @@ The thing I had most fun debugging and why I decided to write the blog post is *
 > firewall_backend = "iptables"
 > ```
 
+## Restart libvirtd.service
+
+```bash
+sudo systemctl restart libvirtd.service
+```
+
 ## Add Yourself to the Right Groups
 
 This lets you manage VMs without typing your password every five seconds:
