@@ -9,6 +9,7 @@ languageCode = "en-us"
 title = "cloudwithdan"
 enableGitInfo = false
 enableEmoji = true
+enableRobotsTXT = true
 rssLimit = 10
 
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
@@ -27,6 +28,8 @@ pygmentsUseClasses = true
   tag = "tags"
 
 [params]
+  description = "Cloud infrastructure, DevOps, and technology insights"
+  images = ["/images/Flammarion_rounded.png"]
   homeSubtitlePrinter = true
   scrollToTop = true 
   global_mathjax = false
